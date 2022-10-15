@@ -1,0 +1,47 @@
+.main-container{
+    row-gap: 2rem;
+}
+
+.weather-stats > p{
+    font-size: 2rem;
+    line-height: 1.75rem;
+}
+
+.temp-details{
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.extra-info{
+    row-gap: 1rem;
+}
+
+.extra-info > div{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+@media only screen and (max-width: 766px) {
+    .weather-stats > p{
+        font-size: 1.5rem;
+        line-height: 1.2rem;
+    }
+
+    .temp-details{
+        font-size: 2.5rem;
+        line-height: 1rem;
+    }
+
+    .extra-info{
+        row-gap: 0.5rem;
+    }
+
+    .extra-info > div{
+        font-size: 0.7rem;
+        line-height: 1.25rem;
+    }
+
+    .extra-info-2 {
+        font-size: 0.6rem;
+    }
+}

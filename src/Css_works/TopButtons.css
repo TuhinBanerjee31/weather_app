@@ -1,0 +1,14 @@
+.button-text{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: azure;
+}
+
+@media only screen and (max-width: 766px) {
+    .button-text{
+        font-size: 0.8rem;
+        line-height: 1rem;
+
+    }
+}

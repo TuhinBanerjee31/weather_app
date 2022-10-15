@@ -1,0 +1,31 @@
+.timeline{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.timeline > p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.location{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.location > p{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+@media only screen and (max-width: 766px) {
+    .timeline > p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .location > p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.footer-text{
+    font-family: 'Acme', sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color:rgb(10, 9, 9)
+}
+
+.footer-text :hover{
+    color: rgb(143, 143, 143);
+}

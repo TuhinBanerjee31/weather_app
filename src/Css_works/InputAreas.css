@@ -1,0 +1,51 @@
+.main-container{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-box{
+    column-gap: 1rem;
+}
+
+.search-box > input{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.metric{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.imperial{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+@media only screen and (max-width: 766px) {
+    .main-container{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        column-gap: 1rem;
+    }
+
+    .search-box > input{
+        font-size: 1rem;
+        line-height: 0.7rem;
+    }
+
+    .metric{
+        font-size: 1rem;
+        line-height: 0.7rem;
+    }
+
+    .imperial{
+        font-size: 1rem;
+        line-height: 0.7rem;
+    }
+    
+}
